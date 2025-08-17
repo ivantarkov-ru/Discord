@@ -1,0 +1,97 @@
+===========================
+Z3R0NET Public Profile Analyzer
+===========================
+
+Author: Z3R0NET
+Version: 1.0
+Platform: Linux / Termux
+Language: Python 3
+
+------------------------------------------------
+1. REQUIREMENTS
+------------------------------------------------
+- Python 3
+- pip (Python package manager)
+- discord.py library
+- Discord bot token
+- Linux or Termux environment
+
+Optional (Linux only):
+- git (for cloning the project)
+
+------------------------------------------------
+2. INSTALLATION
+------------------------------------------------
+1) Update your system:
+   Linux:
+      sudo apt update && sudo apt upgrade -y
+   Termux:
+      pkg update && pkg upgrade -y
+
+2) Install Python and pip:
+   Linux:
+      sudo apt install python3 python3-pip -y
+   Termux:
+      pkg install python -y
+
+3) Install discord.py library:
+   Linux:
+      pip3 install discord.py
+   Termux:
+      pip install discord.py
+
+4) (Optional) Clone the project using git:
+   git clone <repository_link>
+   cd <repository_folder>
+
+5) Add your bot token:
+   - Open z3ronet_public_analyzer.py
+   - Replace YOUR_DISCORD_BOT_TOKEN with your actual Discord bot token
+
+------------------------------------------------
+3. RUNNING THE BOT
+------------------------------------------------
+Linux:
+   python3 z3ronet_public_analyzer.py
+
+Termux:
+   python z3ronet_public_analyzer.py
+
+Once the bot is online, you can use the commands in your Discord server.
+
+------------------------------------------------
+4. COMMANDS
+------------------------------------------------
+!myprofile
+   - Analyze your own Discord profile
+   - Shows avatar, username, discriminator, ID, top role
+
+!profile @username
+   - Analyze public profile information of other users (ethical and permitted)
+   - Shows username, discriminator, ID, bot status, top role, mutual servers, public connections
+
+!serverinfo
+   - Displays server information
+   - Member count, roles, channels, server ID
+
+!members
+   - Lists server members (batches of 50)
+   - Format: Username#Discriminator
+
+------------------------------------------------
+5. NOTES
+------------------------------------------------
+- This tool is designed for **ethical use only** and uses public/allowed information.
+- Accessing private data of other users is illegal and not supported.
+- Always use responsibly and within the legal framework.
+
+------------------------------------------------
+6. SUPPORT
+------------------------------------------------
+- Z3R0NET Community
+- GitHub repository issues
+- Discord server support
+
+===========================
+End of usage.txt
+===========================
